@@ -1,7 +1,7 @@
 # MinneMUDAC-2025-Mentorship-Matching
 This repository contains our solution to the 2025 **MinneMUDAC Data Science Challenge**, in partnership with **Big Brothers Big Sisters (BBBS)**. Our goal: uncover what makes a mentorship match succeed or fail — using unstructured data like email exchanges, call transcripts, and free-text surveys.
 
-# 🤝 Predicting Successful Mentorship Matches – MinneMUDAC 2024
+# Predicting Successful Mentorship Matches – MinneMUDAC 2024
 
 This repository contains our solution to the 2024 **MinneMUDAC Data Science Challenge**, in partnership with **Big Brothers Big Sisters (BBBS)**. Our goal: uncover what makes a mentorship match succeed or fail — using unstructured data like email exchanges, call transcripts, and free-text surveys.
 
@@ -9,7 +9,7 @@ This repository contains our solution to the 2024 **MinneMUDAC Data Science Chal
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 **What separates a successful mentorship match from a failed one?**
 
@@ -17,7 +17,7 @@ While no match is guaranteed to succeed, we explored controllable factors (commu
 
 ---
 
-## 🔍 Key Contributions
+## Key Contributions
 
 - **Preprocessed 12,000+ unstructured interactions**: emails, support call transcripts, survey free-text.
 - **Built NLP pipelines** with HuggingFace Transformers: tokenization, embeddings, cleanup.
@@ -30,7 +30,7 @@ While no match is guaranteed to succeed, we explored controllable factors (commu
 
 ---
 
-## 🧪 NLP & Modeling Pipeline
+## NLP & Modeling Pipeline
 
 1. **Data Preprocessing**
    - Cleaned text: stopword removal, spell correction, tokenization
@@ -53,7 +53,7 @@ While no match is guaranteed to succeed, we explored controllable factors (commu
 
 ---
 
-## 📈 Results
+## Results
 
 | Metric                  | Baseline | Final Model |
 |-------------------------|----------|-------------|
@@ -63,7 +63,7 @@ While no match is guaranteed to succeed, we explored controllable factors (commu
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 | Feature                        | Successful Matches | Unsuccessful Matches |
 |-------------------------------|--------------------|----------------------|
@@ -77,7 +77,7 @@ While no match is guaranteed to succeed, we explored controllable factors (commu
 
 ---
 
-## 🛠️ Intervention Strategy
+## Intervention Strategy
 
 Based on our insights, we propose a **survey-triggered intervention plan**:
 
